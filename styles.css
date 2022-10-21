@@ -20,6 +20,7 @@ h1 {
 h2 {
   color: #094067;
   font-size: 28px;
+  margin-top: 20px;
 }
 
 p {
@@ -47,6 +48,11 @@ ul {
   padding: 0;
 }
 
-#instructions {
+.container {
   display: flex;
+  gap: 20px;
+}
+
+#github {
+  cursor: pointer;
 }
